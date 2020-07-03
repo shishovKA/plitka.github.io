@@ -1,0 +1,12 @@
+@import url(./__text/block__text.css);
+@import url(./_type/block_type_conform.css);
+
+.block {
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 1 1;
+    flex-basis: calc(50%-5px);
+}
+

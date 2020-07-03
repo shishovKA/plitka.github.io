@@ -1,0 +1,28 @@
+@import url(./vendor/normalize.css);
+
+@import url(./blocks/header/header.css);
+@import url(./blocks/footer/footer.css);
+
+@import url(./blocks/section/section.css);
+@import url(./blocks/block/block.css);
+
+
+.page {
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  width: 100%;
+  max-width: 768px;
+  min-width: 320px;
+}
+
+.main-container {
+  margin: 0px 0px;
+}
+
+
+
+@media screen and (min-width: 480px) {
+  .main-container {
+    margin: 0px 13px;
+  }
+}

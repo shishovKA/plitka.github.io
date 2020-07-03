@@ -1,0 +1,11 @@
+@import url(./footer__text.css);
+
+.footer {
+    height: 90px;
+    width: 100%;
+    background-color: #C4C4C4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
