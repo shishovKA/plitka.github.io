@@ -1,0 +1,10 @@
+.common-section__item_type_intro {
+    background-color: #90BCE8;
+    margin: 0px 10px 0px 0px;
+    flex: 1 1 0;
+}
+
+.common-section__item_type_intro:nth-child(2) {
+    background-color: #FEBF26;
+    margin: 0px 0px 0px 0px;
+}

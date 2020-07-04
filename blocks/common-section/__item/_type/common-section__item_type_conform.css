@@ -1,0 +1,14 @@
+.common-section__item_type_conform {
+    background-color: #E8EBED;
+    margin: 0px 10px 10px 0px;
+    flex: 1 1 0;
+}
+
+.common-section__item_type_conform:nth-child(2) {
+    margin: 0px 0px 10px 0px;
+}
+
+.common-section__item_type_conform:nth-child(3) {
+    flex: 2 1 100%;
+    margin: 0px;
+}

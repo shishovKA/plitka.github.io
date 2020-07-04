@@ -1,0 +1,45 @@
+@import url(./__text/square-section__text.css);
+
+.square-section {
+    width: 100%;
+    display: flex;
+    margin: 10px 0px 10px 0px;
+}
+
+.square-section__item {
+    border: solid 1px;
+    flex: 1 1 calc(100% - 5px);
+    background-color: #A2A9B7;
+    position: relative;
+}
+
+
+.square-section__item:nth-child(2) {
+    margin-top: 10px;
+}
+
+.square-section__container {
+    margin-left: 10px;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+
+.square-section__main-item {
+    position: relative;
+    flex: 2;
+    background-color: #A2A9B7;
+    overflow: auto;
+}
+
+.square-section__main-item:after {
+    content:'';
+    display: block;
+    padding-bottom: 100%;
+}
+
+
+
+
+

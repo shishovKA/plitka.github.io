@@ -1,0 +1,9 @@
+@import url(./__item/common-section__item.css);
+@import url(./__text/common-section__text.css);
+
+.common-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0px 10px 0px;
+}

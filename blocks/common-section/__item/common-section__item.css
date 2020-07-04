@@ -1,0 +1,14 @@
+@import url(./_type/common-section__item_type_conform.css);
+@import url(./_type/common-section__item_type_intro.css);
+@import url(./_type/common-section__item_type_vector.css);
+@import url(./_type/common-section__item_type_lider.css);
+
+
+
+.common-section__item {
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+

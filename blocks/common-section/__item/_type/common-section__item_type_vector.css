@@ -1,0 +1,16 @@
+.common-section__item_type_vector {
+    background-color: #FFAA87;
+    flex: 2 1 100%;
+    margin: 0px;
+}
+
+.common-section__item_type_vector:nth-child(2) {
+    margin: 10px 10px 0px 0px;
+    flex: 1 1 0;
+}
+
+.common-section__item_type_vector:nth-child(3) {
+    margin: 10px 0px 0px 0px;
+    background-color: #C7ABD4;
+    flex: 1 1 0;
+}
