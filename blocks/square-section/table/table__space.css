@@ -1,0 +1,4 @@
+.table__space {
+    flex: 1 1 100%;
+    border-bottom: 1px dashed #000000;
+}

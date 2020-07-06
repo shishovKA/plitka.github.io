@@ -2,28 +2,25 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
+    color: #FFFFFF;
+    
+    margin: 0px;
     font-size: 14px;
     line-height: 20px;
-    color: #FFFFFF;
-    position: absolute;
-
-    width: 100%;
-    height: 100%;
-
-    margin: 0px;
 }
 
 .square-section__text_main {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    color: #FFFFFF;
+    position: absolute;
     font-size: 18px;
     line-height: 26px;
+    
     text-align: center;
-    margin: 0px;
+    
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    padding: 15px;
+  }
 
-    position: absolute;
-    width: 100%;
-    height: 100%;
+  .square-section__text_boat {
+    color: #000000;
   }

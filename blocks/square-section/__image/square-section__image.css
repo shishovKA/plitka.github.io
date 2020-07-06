@@ -1,0 +1,32 @@
+.square-section__image {
+    background-size: cover;
+    background-image: url(../../../image/image.png);
+}
+
+
+
+
+.mark {
+    display: none;
+    margin: 0px;
+    top: calc(50% - 30.5px);
+    right: calc(50% - 30.5px);
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+    background: #FFFFFF;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 61px;
+
+    color: #F55E62;
+
+    text-align: center;
+    
+}
+
+

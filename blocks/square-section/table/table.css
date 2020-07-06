@@ -1,0 +1,6 @@
+.table {
+    position: absolute;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    padding: 15px;
+  }

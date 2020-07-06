@@ -5,5 +5,32 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 0px 0px;
 }
+
+  @media screen and (min-width: 480px) {
+    .common-section_type_comform {
+        order: 2;
+        flex: 2;
+        margin: 10px 10px 0px 0px;
+    }
+
+    .common-section_type_intro {
+        order: 3;
+        flex: 1;
+        flex-direction: row;
+    }
+
+    .common-section_type_lider {
+        order: 5;
+        flex: 1;
+        flex-direction: row;
+    }
+
+    .common-section_type_vector {
+        order: 6;
+        flex: 1;
+        margin: 10px 0px 0px 10px;
+    }
+
+  }

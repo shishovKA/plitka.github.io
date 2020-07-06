@@ -8,3 +8,11 @@
     background-color: #FEBF26;
     margin: 0px 0px 0px 0px;
 }
+
+@media screen and (min-width: 480px) {
+    .common-section__item_type_intro {
+        flex: 1 1 100%;
+        margin: 0px 0px 10px 0px;
+    }
+
+  }
