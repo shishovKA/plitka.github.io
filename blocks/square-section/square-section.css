@@ -19,13 +19,13 @@
     display: none;
 }
 
-.square-section_type_boat:hover .square-section__image{
+.square-section__image-container:hover .square-section__image{
     transition: box-shadow 0.5s, filter 0.5s;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     filter: blur(3px);
 }
 
-.square-section_type_boat:hover .mark{
+.square-section__image-container:hover .mark{
     display: block;
 }
 
